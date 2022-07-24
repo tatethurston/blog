@@ -81,12 +81,12 @@
   box-sizing: border-box;
 }
 
-:root,
-body {
-  min-height: 100%;
+:root {
+  height: 100%;
 }
 
 body {
+  min-height: 100%;
   font-family: var(--font-body);
   font-size: 1rem;
   font-size: clamp(

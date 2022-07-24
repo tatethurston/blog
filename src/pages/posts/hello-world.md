@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/Page.astro"
 title: "Hello World!"
-description: "First post"
+description: "Coming soon."
 publishDate: "23 Jul 2022"
 ---
 
-Hello world!
+Coming soon.
