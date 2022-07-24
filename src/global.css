@@ -72,11 +72,6 @@
   }
 }
 
-body {
-  background: var(--theme-bg);
-  color: var(--theme-text);
-}
-
 ::selection {
   color: var(--theme-accent);
   background-color: rgba(var(--theme-accent-rgb), var(--theme-accent-opacity));
@@ -84,6 +79,11 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+:root,
+body {
+  min-height: 100%;
 }
 
 body {
@@ -95,15 +95,8 @@ body {
     1.125rem
   );
   line-height: 1.625;
-}
-
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--content-max-width);
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 100%;
+  background: var(--theme-bg);
+  color: var(--theme-text);
 }
 
 nav ul {
