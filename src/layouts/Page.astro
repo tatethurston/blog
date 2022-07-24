@@ -1,6 +1,5 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
+import Page from "../components/Page.astro";
 
 export interface Props {
 	content: {
@@ -15,24 +14,17 @@ const {
 } = Astro.props as Props;
 ---
 
-<html>
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
-
-	<body>
-		<Header />
-		<article class="wrapper content">
-			<header>
-				<h1 class="title">{title}</h1>
-				<time>{publishDate}</time>
-			</header>
-			<main>
-				<slot></slot>
-			</main>
-		</article>
-	</body>
-</html>
+<Page title={title} description={description}>
+  <article class="wrapper content">
+    <header>
+      <h1 class="title">{title}</h1>
+      <time>{publishDate}</time>
+    </header>
+    <main>
+      <slot></slot>
+    </main>
+  </article>
+</Page>
 
 <style>
 	header {

@@ -1,5 +1,5 @@
 ---
-import "../styles/blog.css";
+import "../global.css";
 
 export interface Props {
 	title: string;
@@ -9,16 +9,19 @@ export interface Props {
 const { title, description } = Astro.props;
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<meta name="color-scheme" content="light dark">
-
-<!-- Primary Meta Tags -->
 <title>Tate | {title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+{ import.meta.env.MODE === 'production' &&
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'"> }
+
+<meta name="color-scheme" content="light dark">
+<!-- Keep in sync with theme-bg from global.css -->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="fff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000014">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />

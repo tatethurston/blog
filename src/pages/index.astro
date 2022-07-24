@@ -1,6 +1,5 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
+import Page from "../components/Page.astro";
 import BlogPostPreview from "../components/BlogPostPreview.astro";
 
 const title = "Articles";
@@ -15,32 +14,25 @@ const posts = unsortedPosts.sort(function (a, b) {
 });
 ---
 
-<html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
-
-	<body>
-		<Header />
-		<div class="wrapper">
-			<main class="content">
-				<section class="intro">
-					<p>Hello 👋, I{"'"}m <a href="https://twitter.com/tatethurston">@tatethurston</a>.</p>
-				</section>
-				<section aria-label="Article list">
-					{posts.map(({ url, frontmatter }) => (
-						<BlogPostPreview
-							title={frontmatter.title}
-							description={frontmatter.description}
-							publishDate={frontmatter.publishDate}
-							url={url}
-						/>
-					))}
-				</section>
-			</main>
-		</div>
-	</body>
-</html>
+<Page title={title} description={description}>
+  <div class="wrapper">
+    <main class="content">
+      <section class="intro">
+        <p>Hello 👋, I{"'"}m <a href="https://twitter.com/tatethurston">@tatethurston</a>.</p>
+      </section>
+      <section aria-label="Article list">
+        {posts.map(({ url, frontmatter }) => (
+          <BlogPostPreview
+            title={frontmatter.title}
+            description={frontmatter.description}
+            publishDate={frontmatter.publishDate}
+            url={url}
+          />
+        ))}
+      </section>
+    </main>
+  </div>
+</Page>
 
 <style>
 	.content {

@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Page.astro"
 title: "Hello World!"
 description: "First post"
 publishDate: "23 Jul 2022"
