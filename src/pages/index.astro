@@ -3,8 +3,8 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import BlogPostPreview from "../components/BlogPostPreview.astro";
 
-let title = "Example Blog";
-let description = "The perfect starter for your perfect blog.";
+const title = "Articles";
+const description = "Tate Thurston's articles.";
 
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob("./posts/*.md");
@@ -25,10 +25,9 @@ const posts = unsortedPosts.sort(function (a, b) {
 		<div class="wrapper">
 			<main class="content">
 				<section class="intro">
-					<h1>{title}</h1>
-					<p>{description}</p>
+					<p>Hello 👋, I{"'"}m <a href="https://twitter.com/tatethurston">@tatethurston</a>.</p>
 				</section>
-				<section aria-label="Blog post list">
+				<section aria-label="Article list">
 					{posts.map(({ url, frontmatter }) => (
 						<BlogPostPreview
 							title={frontmatter.title}
