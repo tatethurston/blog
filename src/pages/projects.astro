@@ -2,11 +2,10 @@
 import Page from "../components/Page.astro";
 import PostPreview from "../components/PostPreview.astro";
 
-const title = "Articles";
-const description = "Tate Thurston's articles.";
+const title = "Projects";
+const description = "Tate Thurston's projects.";
 
-// Use Astro.glob to fetch all post with associated frontmatter
-const unsortedPosts = await Astro.glob("./articles/*.md");
+const unsortedPosts = await Astro.glob("./projects/*.md");
 const posts = unsortedPosts.sort(function (a, b) {
 	return (
 		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
@@ -16,7 +15,7 @@ const posts = unsortedPosts.sort(function (a, b) {
 
 <Page title={title} description={description}>
   <main>
-    <section aria-label="Article list">
+    <section aria-label="Project list">
       {posts.map(({ url, frontmatter }) => (
         <PostPreview
           title={frontmatter.title}
