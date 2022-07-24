@@ -15,17 +15,19 @@ const { title, description } = Astro.props as Props;
 	</head>
 
 	<body>
-    <nav class="wrapper">
-      <a href="/">
-        <span>Articles</span>
-      </a>
-      <a href="/projects">
-        <span>Projects</span>
-      </a>
-      <a href="/about">
-        <span>About</span>
-      </a>
-    </nav>
+    <header class="wrapper">
+      <nav>
+        <a href="/">
+          <span>Articles</span>
+        </a>
+        <a href="/projects">
+          <span>Projects</span>
+        </a>
+        <a href="/about">
+          <span>About</span>
+        </a>
+      </nav>
+    </header>
     <slot></slot>
     <footer class="wrapper">
       <a href="https://github.com/tatethurston">
@@ -40,21 +42,20 @@ const { title, description } = Astro.props as Props;
 
 <style>
 	nav {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		height: 5rem;
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
 	}
 
-	a {
-    margin-right: 2rem;
-		text-decoration: none;
-		display: inline-flex;
-	}
+  a {
+    text-decoration: none;
+    display: inline-flex;
+  }
 
   footer {
-    padding-top: 1rem;
-    height: 5rem;
+    margin: 2rem 0;
     display: flex;
     justify-content: end;
+    gap: 2rem;
   }
 </style>
