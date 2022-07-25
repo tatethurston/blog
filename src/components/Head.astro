@@ -4,13 +4,14 @@ import "../global.css";
 export interface Props {
 	title: string;
 	description: string;
+  keywords: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, keywords } = Astro.props;
 ---
 
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Tate | {title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
@@ -25,6 +26,9 @@ const { title, description } = Astro.props;
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon-192x192.png">
 
+<!-- SEO -->
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content={keywords} />
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.canonicalURL} />

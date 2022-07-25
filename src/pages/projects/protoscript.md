@@ -2,6 +2,7 @@
 layout: "../../layouts/Page.astro"
 title: "ProtoScript"
 description: "A protocol buffers runtime and code generation tool for JavaScript and TypeScript."
+keywords: "protocol buffers, protobuf, javascript, typescript"
 publishDate: "6 Jul 2022"
 ---
 

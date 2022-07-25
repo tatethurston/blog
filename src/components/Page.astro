@@ -4,14 +4,15 @@ import Head from "../components/Head.astro";
 export interface Props {
   title: string;
   description: string;
+  keywords: string;
 }
 
-const { title, description } = Astro.props as Props;
+const { title, description, keywords } = Astro.props as Props;
 ---
 
 <html lang="en">
 	<head>
-		<Head title={title} description={description} />
+		<Head title={title} description={description} keywords={keywords} />
 	</head>
 
 	<body>

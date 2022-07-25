@@ -5,16 +5,17 @@ export interface Props {
 	content: {
 		title: string;
 		description: string;
+    keywords: string;
 		publishDate?: string;
 	};
 }
 
 const {
-	content: { title, description, publishDate },
+	content: { title, description, keywords, publishDate },
 } = Astro.props as Props;
 ---
 
-<Page title={title} description={description}>
+<Page title={title} description={description} keywords={keywords}>
   <article>
     <header>
       <h1 class="title">{title}</h1>
