@@ -11,18 +11,19 @@ const { title, description } = Astro.props;
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <title>Tate | {title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-<meta name="author" content="Tate Thurston">
+<meta name="author" content="Tate Thurston" />
 { import.meta.env.MODE === 'production' &&
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'"> }
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'" /> }
 
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light dark" />
 <!-- Keep in sync with theme-bg from global.css -->
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="fff">
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000014">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000014" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon-192x192.png">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
