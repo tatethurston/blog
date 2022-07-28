@@ -6,7 +6,7 @@ keywords: "eslint react class, lint react class, lint jsx class"
 publishDate: "7 July 2021"
 ---
 
-tl;dr I launched [eslint-plugin-react-prefer-function-component](https://www.npmjs.com/package/eslint-plugin-react-prefer-function-component), an [ESLint](https://github.com/eslint/eslint) plugin that prevents the use of React class components. While this plugin specifically calls out React, it will work with Preact, Inferno, or other JSX libraries.
+tl;dr I launched [eslint-plugin-react-prefer-function-component](https://www.npmjs.com/package/eslint-plugin-react-prefer-function-component), an [ESLint](https://github.com/eslint/eslint) plugin that prevents the use of class components in JSX
 
 ## update Jun 23, 2022
 
@@ -25,7 +25,9 @@ This rule is intended to complement the [eslint-plugin-react](https://github.com
 
 ## the final result
 
-[eslint-plugin-react-prefer-function-component](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component)
+[eslint-plugin-react-prefer-function-component](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component).
+
+While this plugin specifically calls out React, it will work with Preact, Inferno, or other JSX libraries.
 
 If you'd like to try it out, see the [installation instructions](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component#installation--usage-).
 
