@@ -3,7 +3,7 @@ layout: "../../layouts/Page.astro"
 title: "eslint-plugin-react-prefer-function-component"
 description: "An ESLint plugin that prevents the use of React class components."
 keywords: "eslint react class, lint react class, lint jsx class"
-publishDate: "7 July 2021"
+publishDate: "7 Jul 2021"
 ---
 
 tl;dr I launched [eslint-plugin-react-prefer-function-component](https://www.npmjs.com/package/eslint-plugin-react-prefer-function-component), an [ESLint](https://github.com/eslint/eslint) plugin that prevents the use of class components in JSX.

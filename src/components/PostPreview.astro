@@ -19,6 +19,11 @@ const { title, description, publishDate, url } = Astro.props as Props;
 </article>
 
 <style>
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
 	.post-preview {
 		padding-bottom: 1rem;
 		margin-bottom: 1rem;
@@ -28,6 +33,7 @@ const { title, description, publishDate, url } = Astro.props as Props;
 	time {
 		font-size: 1rem;
 		color: var(--theme-text-lighter);
+    white-space: nowrap;
 	}
 
 	.title {
