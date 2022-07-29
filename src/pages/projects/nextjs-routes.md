@@ -8,7 +8,9 @@ publishDate: "15 Apr 2022"
 
 tl;dr I launched [nextjs-routes](https://www.npmjs.com/package/nextjs-routes), a code generation tool to make [next/link](https://nextjs.org/docs/api-reference/next/link) and [next/router](https://nextjs.org/docs/api-reference/next/router) routes type safe.
 
-![nextjs-routes autocompletion](https://raw.githubusercontent.com/tatethurston/nextjs-routes/HEAD/images/nextjs-routes.gif)
+<div class="responsive-image">
+  <img alt="nextjs-routes autocompletion" src="https://raw.githubusercontent.com/tatethurston/nextjs-routes/HEAD/images/nextjs-routes.gif" />
+</div>
 
 ## why
 

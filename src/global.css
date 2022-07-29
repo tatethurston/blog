@@ -217,6 +217,18 @@ pre {
   }
 }
 
-img {
+.responsive-image {
+  /* 16:9 image container */
+  padding-top: 56.25%;
   max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.responsive-image > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
