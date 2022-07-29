@@ -33,7 +33,7 @@ Google's [google-protobuf](https://www.npmjs.com/package/google-protobuf) is by 
 
 So, I wrote a code generation tool. Given the following `proto` message:
 
-```proto
+```protobuf
 syntax = "proto3";
 
 // A Hat is a piece of headwear made by a Haberdasher.
