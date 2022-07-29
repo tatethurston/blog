@@ -17,28 +17,3 @@ const { title, description, publishDate, url } = Astro.props as Props;
 	<p>{description}</p>
 	<a href={url}>Read more</a>
 </article>
-
-<style>
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-	.post-preview {
-		padding-bottom: 1rem;
-		margin-bottom: 1rem;
-		border-bottom: 4px solid var(--theme-divider);
-	}
-
-	time {
-		font-size: 1rem;
-		color: var(--theme-text-lighter);
-    white-space: nowrap;
-	}
-
-	.title {
-    margin: 0;
-		font-size: 1.5rem;
-		font-weight: 700;
-	}
-</style>

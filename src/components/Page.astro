@@ -38,38 +38,3 @@ const { title, description, keywords } = Astro.props as Props;
     </footer>
 	</body>
 </html>
-
-<style>
-  body {
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%;
-    max-width: var(--content-max-width);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  }
-
-  @media (min-width: 768px) {
-    body {
-      padding: 2rem;
-    }
-  }
-
-	nav {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
-	}
-
-  a {
-    text-decoration: none;
-    display: inline-flex;
-  }
-
-  footer {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: end;
-    gap: 2rem;
-  }
-</style>
