@@ -8,6 +8,7 @@ export interface Props {
 }
 
 const { title, description, keywords } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <meta charset="utf-8" />
@@ -17,7 +18,7 @@ const { title, description, keywords } = Astro.props;
 <meta name="description" content={description} />
 <meta name="author" content="Tate Thurston" />
 { import.meta.env.MODE === 'production' &&
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' https://raw.githubusercontent.com" /> }
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://raw.githubusercontent.com" /> }
 
 <meta name="color-scheme" content="light dark" />
 <!-- Keep in sync with theme-bg from global.css -->
@@ -31,12 +32,13 @@ const { title, description, keywords } = Astro.props;
 <meta name="keywords" content={keywords} />
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.canonicalURL} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.canonicalURL} />
+<meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
+
