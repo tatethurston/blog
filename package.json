@@ -12,7 +12,7 @@
     "astro": "^1.0.0-rc.3"
   },
   "dependencies": {
-    "astrojs-service-worker": "^0.0.5",
+    "astrojs-service-worker": "^0.0.8",
     "preact": "^10.7.3"
   }
 }
