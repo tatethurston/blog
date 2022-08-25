@@ -6,6 +6,8 @@ import serviceWorker from "astrojs-service-worker";
 export default defineConfig({
   site: "https://www.tatethurston.com",
   integrations: [preact(), serviceWorker()],
-  // S3 will redirect non trailing slashes
-  trailingSlash: "always",
+  trailingSlash: "never",
+  build: {
+    format: "file",
+  },
 });

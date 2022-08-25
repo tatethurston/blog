@@ -8,11 +8,11 @@
     "start": "astro build && astro preview"
   },
   "devDependencies": {
-    "@astrojs/preact": "^0.5.2",
-    "astro": "^1.0.0-rc.3"
+    "@astrojs/preact": "^1.0.2",
+    "astro": "^1.0.9"
   },
   "dependencies": {
     "astrojs-service-worker": "^0.0.8",
-    "preact": "^10.7.3"
+    "preact": "^10.10.6"
   }
 }
