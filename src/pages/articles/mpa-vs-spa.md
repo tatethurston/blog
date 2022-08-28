@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/Page.astro"
-title: "MPAs vs SPAs"
+title: "MPA vs SPA"
 description: "When should you choose a multi-page application or a single-page application?"
 keywords: "mpa, spa, multi-page application, single-page application"
 publishDate: "27 May 2022"
