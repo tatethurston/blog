@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/Page.astro"
 title: "REST vs GraphQL vs RPC"
-description: "When building an API, which do you choose? `REST`, `GraphQL` or another RPC like `gRPC`?"
+description: "When building an API, should you choose REST, GraphQL or another RPC like gRPC?"
 keywords: "REST, RESTful, GraphQL, RPC, gRPC"
 publishDate: "27 June 2022"
 ---
 
-Similar to the [MPA vs SPA](./mpa-vs-spa') debate, there is no shortage of advocates championing [REST](https://htmx.org/essays/rest-explained/), [GraphQL](https://graphql.org/) or an RPC such as [gRPC](https://grpc.io/) as the _the_ way to deliver APIs over a network.
+Similar to the [MPA vs SPA](./mpa-vs-spa) debate, there is no shortage of advocates championing [REST](https://htmx.org/essays/rest-explained/), [GraphQL](https://graphql.org/) or an RPC such as [gRPC](https://grpc.io/) as the _the_ way to deliver APIs over a network.
 
 Technically, `GraphQL` belongs under the RPC category -- making the buckets REST or RPC, but due to it's popularity and unique approach to read requests I gave GraphQL explicit consideration. Further clouding taxonomy, the majority of "REST" APIs are [more accurately characterized as JSON over HTTP](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven), with varying levels of adoption of REST principles. Still, "REST" is the most common descriptor for these JSON APIs, so while [technically inaccurate](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/), I'll use REST in this article.
 
@@ -16,7 +16,7 @@ Like any architecture decision, the best way to evaluate the trade offs of these
 
 ### REST
 
-While varying in levels of conformance to actual REST, JSON REST APIs are by far the most prevalent API considered in this article. All modern languages in wide use have JSON encoding/decoding out of the box, and many libraries implement tooling on top of the HTTP verb semantics prescribed by REST. This makes it especially easy for external clients to consume and instrument your service, and it is likely that consumers are extending tooling they already have in place rather than doing greenfield development to integrate your API. This benefit extends to existing network infrastructure: nearly all CDNs and proxies understand HTTP verb semantics without configuration, so REST semantics can help you leverage a suite of powerful caching semantics out of the box.
+While varying in levels of conformance to actual REST, RESTful JSON APIs are by far the most prevalent API considered in this article. All modern languages have builtin support for JSON serialization, and many libraries implement tooling on top of the HTTP verb semantics prescribed by REST. This makes it especially easy for external clients to consume and instrument your service, and likely that these consumers can reuse tooling they already have in place rather than greenfield development to integrate your API. This benefit extends to existing network infrastructure: nearly all CDNs and proxies understand HTTP verb semantics without configuration, so adhering to REST can help you leverage a suite of powerful caching semantics out of the box.
 
 I would not use a REST for an API whose only consumers are internal clients, such as an SPA making requests to an internal API. For these clients, the correctness guarantees, API discoverability and autocompletion from a typed RPC provide too many benefits to give up. A JSON API lacks type safety and the developer tooling that builds on static typing. This can be mitigated to an extent with tools like [JSON Schema](https://json-schema.org/), but that route requires stitching together and maintaining a suite of tools only to achieve a similar developer experience that comes out of the box with a typed RPC. RPC's generally enforce consistency, and eliminate bike shedding such as "should this be provided via HTTP headers, the body, or query parameters?" Consistency is good, but these decisions rarely matter for a given application.
 
