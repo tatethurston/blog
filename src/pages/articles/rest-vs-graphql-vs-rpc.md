@@ -2,6 +2,7 @@
 layout: "../../layouts/Page.astro"
 title: "REST vs GraphQL vs RPC"
 description: "When building an API, which do you choose? `REST`, `GraphQL` or another RPC like `gRPC`?"
+keywords: "REST, RESTful, GraphQL, RPC, gRPC"
 publishDate: "27 June 2022"
 ---
 

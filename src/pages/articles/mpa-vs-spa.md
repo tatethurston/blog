@@ -2,6 +2,7 @@
 layout: "../../layouts/Page.astro"
 title: "MPAs vs SPAs"
 description: "Often times developers championing MPAs or SPAs are talking past each other, developing web delivered assets with very different requirements."
+keywords: "mpa, spa, multi-page application, single-page application"
 publishDate: "27 May 2022"
 ---
 
