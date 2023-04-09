@@ -16,13 +16,9 @@ const {
 ---
 
 <Page title={title} description={description} keywords={keywords}>
-  <article>
-    <header>
-      <h1 class="title">{title}</h1>
-      {publishDate && <time>{publishDate}</time>}
-    </header>
-    <main>
-      <slot></slot>
-    </main>
-  </article>
+  <header>
+    <h1>{title}</h1>
+    {publishDate && <time>{publishDate}</time>}
+  </header>
+  <slot></slot>
 </Page>

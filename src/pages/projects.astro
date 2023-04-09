@@ -14,15 +14,14 @@ const posts = unsortedPosts.sort(function (a, b) {
 ---
 
 <Page title={title} description={description}>
-  <main>
-    <section aria-label="Project list">
-      {posts.map(({ url, frontmatter }) => (
-        <PostPreview
-          title={frontmatter.title}
-          description={frontmatter.description}
-          publishDate={frontmatter.publishDate}
-          url={url}
-        />
-      ))}
-    </section>
+  <section aria-label="Project list">
+    {posts.map(({ url, frontmatter }) => (
+      <PostPreview
+        title={frontmatter.title}
+        description={frontmatter.description}
+        publishDate={frontmatter.publishDate}
+        url={url}
+      />
+    ))}
+  </section>
 </Page>
