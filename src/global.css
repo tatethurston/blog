@@ -50,6 +50,7 @@ body {
 }
 
 main {
+  margin-top: 1.5rem;
   flex-grow: 1;
 }
 
@@ -111,7 +112,6 @@ a:hover {
 nav {
   display: flex;
   gap: 2rem;
-  margin-bottom: 1rem;
 }
 
 footer {
@@ -141,7 +141,7 @@ header :is(h1, h2) {
 }
 
 article {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .responsive-image {
