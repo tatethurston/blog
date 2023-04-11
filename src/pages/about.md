@@ -1,10 +1,10 @@
 ---
 layout: "../layouts/Page.astro"
-title: "About"
-description: "Hi, I'm Tate. I'm an engineer at Twitch, where I focus on client engineering and expanding Twitch outside of the core desktop experience. If you've used Twitch's mobile web or TV applications, you've interacted with my code."
+title: "Hi, I'm Tate"
+description: "I'm an engineer at Twitch, where I focus on client engineering and expanding Twitch outside of the core desktop experience. If you've used Twitch's mobile web or TV applications, you've interacted with my code."
 ---
 
-Hi, I'm Tate. I'm an engineer at [Twitch](https://www.twitch.tv/), where I focus on client engineering and expanding Twitch outside of the core desktop experience. If you've used Twitch's mobile web or TV applications, you've interacted with my code.
+I'm an engineer at [Twitch](https://www.twitch.tv/), where I focus on client engineering and expanding Twitch outside of the core desktop experience. If you've used Twitch's mobile web or TV applications, you've interacted with my code.
 
 Before that, I spent 5 years working at Silicon Valley startups of varying sizes, typically in full stack or backend web engineering roles. I've worked for 3 [Y Combinator](https://www.ycombinator.com/) companies, and companies at every stage of venture funding: seed funded and through IPO. I've led and grown engineering teams from 2 engineers to several times that.
 
