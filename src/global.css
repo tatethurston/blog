@@ -9,6 +9,11 @@
   --color-gray-400: #9ca3af;
   --color-gray-600: #4b5563;
   --color-gray-800: #1f2937;
+
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,12 +42,11 @@ html {
 
 body {
   font-family: system-ui;
-  font-size: 16px;
-  line-height: 1.5rem;
+  line-height: 1.5;
   background-color: var(--background-color);
   color: var(--color);
   max-width: 70ch;
-  padding: 1rem;
+  padding: var(--spacing-2);
   margin: 0 auto;
   min-height: 100%;
   display: flex;
@@ -50,7 +54,7 @@ body {
 }
 
 main {
-  margin-top: 1.5rem;
+  margin-top: var(--spacing-3);
   flex-grow: 1;
 }
 
@@ -82,7 +86,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  margin: 0.5rem 0;
+  margin: var(--spacing-1) 0;
 }
 
 h1,
@@ -111,22 +115,22 @@ a:hover {
 
 nav {
   display: flex;
-  gap: 2rem;
+  gap: var(--spacing-4);
 }
 
 footer {
-  margin-top: 1rem;
+  margin-top: var(--spacing-2);
   display: flex;
   justify-content: end;
-  gap: 2rem;
+  gap: var(--spacing-4);
 }
 
 @media (min-width: 768px) {
   body {
-    padding: 2rem;
+    padding: var(--spacing-4);
   }
   nav {
-    margin-bottom: 2rem;
+    margin-bottom: var(--spacing-4);
   }
 }
 
@@ -138,11 +142,11 @@ time {
 header :is(h1, h2) {
   font-size: 1.25rem;
   display: inline;
-  margin-right: 0.5rem;
+  margin-right: var(--spacing-1);
 }
 
 article {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-2);
 }
 
 .responsive-image {
@@ -163,7 +167,7 @@ article {
 
 .astro-code {
   border-radius: 8px;
-  padding: 1rem;
+  padding: var(--spacing-2);
   width: 100%;
   font-size: 0.85em;
 }
