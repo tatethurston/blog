@@ -18,7 +18,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta name="description" content={description} />
 <meta name="author" content="Tate Thurston" />
 { import.meta.env.MODE === 'production' &&
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://www.googletagmanager.com; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://raw.githubusercontent.com" /> }
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://www.googletagmanager.com; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://raw.githubusercontent.com; connect-src 'self' https://ikozwkp1n5.execute-api.us-west-1.amazonaws.com https://*.google-analytics.com;" /> }
 
 <meta name="color-scheme" content="light dark" />
 <!-- Keep in sync with theme-bg from global.css -->
