@@ -7,6 +7,7 @@ export interface Props {
 }
 
 const { title, description, publishDate, url } = Astro.props as Props;
+const prettyUrl = url.replace('.html', '');
 ---
 
 <article>
@@ -15,5 +16,5 @@ const { title, description, publishDate, url } = Astro.props as Props;
 		<time>{publishDate}</time>
 	</header>
 	<p>{description}</p>
-	<a href={url}>Read more</a>
+	<a href={prettyUrl}>Read more</a>
 </article>
