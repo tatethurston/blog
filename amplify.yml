@@ -16,4 +16,4 @@ frontend:
   cache:
     paths:
       - ./npm/**/*
-      - ./pnpm/**/*
+      - ./pnpm/v3/**/*
