@@ -3,15 +3,17 @@ frontend:
   phases:
     preBuild:
       commands:
-        - pnpm config set store-dir ~/.pnpm-store
-        - pnpm install --frozen-lockfile
+        - npm config set cache ./npm
+        - npx pnpm config set store-dir ./pnpm
+        - npx pnpm install --frozen-lockfile
     build:
       commands:
-        - pnpm run build
+        - npx pnpm run build
   artifacts:
     baseDirectory: /dist
     files:
       - '**/*'
   cache:
     paths:
-      - ~/.pnpm/store/**/*
+      - ./npm/**/*
+      - ./pnpm/**/*
