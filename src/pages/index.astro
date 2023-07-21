@@ -4,8 +4,6 @@ import PostPreview from "../components/PostPreview.astro";
 
 const title = "Articles";
 const description = "Tate Thurston's articles.";
-
-// Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob("./articles/*.md");
 const posts = unsortedPosts.sort(function (a, b) {
 	return (
