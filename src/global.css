@@ -139,6 +139,11 @@ footer {
   gap: var(--spacing-4);
 }
 
+time {
+  display: block;
+  color: var(--text-color-light);
+}
+
 @media (min-width: 768px) {
   body {
     padding: var(--spacing-4);
@@ -147,11 +152,9 @@ footer {
   nav {
     margin-bottom: var(--spacing-4);
   }
-}
-
-time {
-  display: inline-block;
-  color: var(--text-color-light);
+  time {
+    display: inline;
+  }
 }
 
 header :is(h1, h2) {

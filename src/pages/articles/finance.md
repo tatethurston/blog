@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Page.astro"
 title: "Financial advice to younger me"
-description: "Financial advice I wish I could give myself 10 years ago"
+description: "Financial advice I wish I could give myself 10 years ago."
 keywords: "401k, IRA, Roth IRA, Mega Backdoor Roth, Backdoor Roth"
 publishDate: "30 Oct 2023"
 ---
