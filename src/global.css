@@ -2,7 +2,7 @@
   --accent-color: #ff5d01;
   --background-color: #ffffff;
   --color: var(--color-gray-800);
-  --text-color: #292929;
+  --text-color: rgb(64, 64, 64);
   --text-color-light: var(--color-gray-400);
 
   --color-gray-200: #e5e7eb;
@@ -41,16 +41,21 @@ html {
 }
 
 body {
+  display: inline;
   font-family: system-ui;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-weight: 400;
   background-color: var(--background-color);
   color: var(--color);
-  max-width: 70ch;
+  max-width: 75ch;
   padding: var(--spacing-2);
   margin: 0 auto;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
@@ -86,7 +91,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  margin: var(--spacing-1) 0;
+  margin: var(--spacing-2) 0;
 }
 
 h1,
@@ -95,27 +100,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
+a,
 p,
 li {
   color: var(--text-color);
 }
 
-a {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+li p {
+  margin: var(--spacing-1) 0;
 }
 
 nav {
   display: flex;
   gap: var(--spacing-4);
+}
+
+nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -128,6 +138,7 @@ footer {
 @media (min-width: 768px) {
   body {
     padding: var(--spacing-4);
+    font-size: 18px;
   }
   nav {
     margin-bottom: var(--spacing-4);
