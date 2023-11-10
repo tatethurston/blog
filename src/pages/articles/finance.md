@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/Page.astro"
-title: "Financial advice to myself 10 years ago"
+title: "Financial advice to younger me"
 description: "Financial advice I wish I could give myself 10 years ago"
 keywords: "401k, IRA, Roth IRA, Mega Backdoor Roth, Backdoor Roth"
 publishDate: "30 Oct 2023"
@@ -10,7 +10,7 @@ Working for American corporations gives you access to a number of financial tool
 
 Understanding these tools will also help you navigate job offers. When you don't understand these tools it's easy to hand wave missing retirement benefits when evaluating offers, like 401k matching or after-tax contributions.
 
-# Understanding the Basics
+# Understanding the basics
 
 **401(k):** An employer-sponsored retirement account that allows employees to contribute a portion of their salary. Many employers offer a match, essentially "free money" towards your retirement. There are two main types: Traditional IRA and Roth IRA.
 
@@ -36,11 +36,13 @@ Roth contribution are after-tax contribution -- they do not lower your taxable i
 
 2. Maximize your IRA contributions. Perform a Backdoor Roth conversion.
 
-3. Maximize your Mega Backdoor Roth contributions. Not all employers offer this perk, but it's becoming more popular and many of the large corporations offer it. While individuals can contribute up to $22,500 in 2023 to their 401k, the maximum 401k contribution in 2023 is $66,000. Your employer _could_ contribute up to $43,500, but more likely contributes a percentage of your contributions. Employers plans that support Mega Backdoor Roth's will contribute extra on your behalf, and deduct that amount from the wages they would otherwise pay you. These contribution are always after-tax, so you'll want these contributions to go into a Roth 401k. If your company offered a 2% match, then your Mega Backdoor Roth contributions could be up to $66,000 - $22,500 - (2% of $22,500) = $43,050. This means a total 401k investment of $66,000, with $450 from your employer's 2% match, and $65,550 from you. Of that $65,550, $22,500 is deducted from your taxable income.
+3. Maximize your Mega Backdoor Roth contributions\*.
 
 4. Contribute any leftover savings to a personal brokerage account.
 
 These should be pursued in order -- if you know you'll have $23,000 to invest, max out your 401k contribution and contribute $500 to your Roth. Any debt should be paid off proactively ahead of this list, provided that the APR is > 6-8%. 6-8% is chosen as a _rough_ expected average return for the US Stock market. If the APR is less than 6-8% (such as a 2020 home loan at 2%) I would consider maxing out steps 1-3 and then decide between paying down the home loan or 4. contributing to a brokerage account. I'd likely hedge and split some portion between the two.
+
+\* Not all employers offer this perk, but it's becoming more popular and many of the large corporations offer it. While individuals can contribute up to $22,500 in 2023 to their 401k, the maximum 401k contribution in 2023 is $66,000. Your employer _could_ contribute up to $43,500, but more likely contributes a percentage of your contributions. Employers plans that support Mega Backdoor Roth's will contribute extra on your behalf, and deduct that amount from the wages they would otherwise pay you. These contribution are always after-tax, so you'll want these contributions to go into a Roth 401k. If your company offered a 2% match, then your Mega Backdoor Roth contributions could be up to $66,000 - $22,500 - (2% of $22,500) = $43,050. This means a total 401k investment of $66,000, with $450 from your employer's 2% match, and $65,550 from you. Of that $65,550, $22,500 is deducted from your taxable income.
 
 ## Investments
 
@@ -56,10 +58,10 @@ Because I expect my taxable income to be lower in retirement, I contribute to a 
 
 I would contribute to a Traditional IRA, but the income limit means I don't get any of the tax benefits. So instead I contribute to a Backdoor Roth so we get the benefit of tax-free growth and withdrawals in retirement.
 
-## Additional Thoughts
+## Additional thoughts
 
 For Health Insurance, consider a Health Savings Account (HSA). This requires a high-deductible health plan, but those plans cover preventative which is all we use through our 20s and 30s. HSAs offer a triple tax advantages: tax-free contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. The out of pocket maximum makes it straightforward to quantify our worst-case scenario, and if our out of pocket costs exceed our deductible in a plan year, consider switching to another Health Insurance plan.
 
-## Suggested Reading
+## Suggested reading
 
 1. [The Simple Path to Wealth](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926).
