@@ -6,19 +6,19 @@ keywords: "401k, IRA, Roth IRA, Mega Backdoor Roth, Backdoor Roth"
 publishDate: "30 Oct 2023"
 ---
 
-Working for American corporations gives you access to a number of financial tools. Early in your career, it's easy to not give these much thought. After all, there are so many new things to learn, and isn't it more important to grow as an employee? Won't that be more impactful (and financially rewarding) than min-maxing retirement accounts? Well, yes, but that is a false dichotomy. At most, it will take an hour or two to set up a retirement strategy that you can run on autopilot. Initially the gains will seem small, but compounded over the span of 20 years, the impact is large.
+Working for American corporations gives you access to a number of financial tools. Early in your career, it's easy to not give these much thought. After all, there are so many new things to learn, and isn't it more important to grow as an employee? Won't that be more impactful (and financially rewarding) than min-maxing retirement accounts? Well, yes, but that is a false dichotomy. At most, it will take an hour or two to set up a retirement strategy that you can let run on autopilot. Initially the gains will seem small, but compounded over the span of a 20 or 30 years, the impact will be large.
 
 Understanding these tools will also help you navigate job offers. When you don't understand these tools it's easy to hand wave missing retirement benefits when evaluating offers, like 401k matching or after-tax contributions.
 
 # Understanding the basics
 
-**401(k):** An employer-sponsored retirement account that allows employees to contribute a portion of their salary. Many employers offer a match, essentially "free money" towards your retirement. There are two main types: Traditional IRA and Roth IRA.
+**401(k):** An employer-sponsored retirement account that allows employees to contribute a portion of their salary. Many employers offer a match, essentially "free money" towards your retirement. There are two types: Traditional 401k and Roth 401k.
 
-**IRA:** Individual Retirement Account. A tax-advantaged account that individuals can open independently of their employer. There are two main types: Traditional IRA and Roth IRA.
+**IRA:** Individual Retirement Account. A tax-advantaged account that individuals can open independently of their employer. There are two types: Traditional IRA and Roth IRA.
 
 ## Contribution Limits
 
-The Internal Revenue Service (IRS) publishes contribution limits, typically announcing them in the fourth quarter of the current year and the new limits will apply to the following year. The limit don't necessarily change every year, but it's worth noting the limits each year.
+The Internal Revenue Service (IRS) publishes contribution limits, typically announcing them in the fourth quarter of the current year and the new limits will apply to the following year. The limit does not necessarily change every year, but it's worth noting the limits each year.
 
 For 2023, the 401k individual contribution limit was $22,500. The IRA contribution limit was $6,500. Individuals 50 or older have higher contribution limits.
 
@@ -42,13 +42,13 @@ Roth contribution are after-tax contribution -- they do not lower your taxable i
 
 These should be pursued in order -- if you know you'll have $23,000 to invest, max out your 401k contribution and contribute $500 to your Roth. Any debt should be paid off proactively ahead of this list, provided that the APR is > 6-8%. 6-8% is chosen as a _rough_ expected average return for the US Stock market. If the APR is less than 6-8% (such as a 2020 home loan at 2%) I would consider maxing out steps 1-3 and then decide between paying down the home loan or 4. contributing to a brokerage account. I'd likely hedge and split some portion between the two.
 
-\* Not all employers offer this perk, but it's becoming more popular and many of the large corporations offer it. While individuals can contribute up to $22,500 in 2023 to their 401k, the maximum 401k contribution in 2023 is $66,000. Your employer _could_ contribute up to $43,500, but more likely contributes a percentage of your contributions. Employers plans that support Mega Backdoor Roth's will contribute extra on your behalf, and deduct that amount from the wages they would otherwise pay you. These contribution are always after-tax, so you'll want these contributions to go into a Roth 401k. If your company offered a 2% match, then your Mega Backdoor Roth contributions could be up to $66,000 - $22,500 - (2% of $22,500) = $43,050. This means a total 401k investment of $66,000, with $450 from your employer's 2% match, and $65,550 from you. Of that $65,550, $22,500 is deducted from your taxable income.
+\* Not all employers offer this perk, but it's becoming more popular and many of the large corporations offer it. While individuals can contribute up to $22,500 in 2023 to their 401k, the maximum 401k contribution in 2023 is $66,000. Your employer _could_ contribute up to $43,500, but more likely contributes a match of your contributions, up to a percentage of your income. Employers plans that support Mega Backdoor Roth's will contribute extra on your behalf, and deduct that amount from the wages they would otherwise pay you. These contribution are always after-tax, so you'll want these contributions to go into a Roth 401k. Your Mega Backdoor Roth contributions can be up to $66,000 - $22,500 - your employer match. This means a total 401k investment of $66,000. If your salary is $100,000 and your employer offers a 2% match, then you could contribute $66,000 - $22,500 - $2000 (employer match) = $41,500.
 
 ## Investments
 
-Pick a broad market index fund that covers all or most of US stocks that is passively traded. I like [VTSAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsax). If VTSAX isn't available to you that's fine -- the key is passively traded (look for a very low expense ratio (VTSAX is 0.040%) and broad US market exposure. A passively traded index that tracks the SP500 is also great. As are Target Retirement Funds that are passively traded (look for a very low expense ratio).
+Pick a broad market index fund that covers all or most of US stocks that is passively traded. I like [VTSAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsax). If VTSAX isn't available to you that's fine -- the key features are passively traded (look for a very low expense ratio (VTSAX is 0.040%) and broad US market exposure. A passively traded index that tracks the SP500 is great. As are the numerous passively traded Target Retirement Funds (look for a very low expense ratio). Checkout the suggested reading below if you're interested in the _why_ behind this recommendation.
 
-Your 401k and IRA are provided by your employer, but all plans should have something that approximates these recommendations. You have more leeway with your brokerage account, I recommend Vanguard and VTSAX, but the core idea is a broad market index fund that covers all or most of US stocks that is passively traded. Checkout the suggested reading below if you're interested in the _why_ behind this recommendation.
+Your 401k and IRA are provided by your employer, but all plans should have something that approximates these recommendations. You have more leeway with your brokerage account, I like Vanguard and VTSAX.
 
 ## Discussion
 
@@ -58,9 +58,11 @@ Because I expect my taxable income to be lower in retirement, I contribute to a 
 
 I would contribute to a Traditional IRA, but the income limit means I don't get any of the tax benefits. So instead I contribute to a Backdoor Roth so we get the benefit of tax-free growth and withdrawals in retirement.
 
+To further understand the motivations behind passively traded index funds with broad US market exposure, checkout [The Simple Path to Wealth](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926), also listed below.
+
 ## Additional thoughts
 
-For Health Insurance, consider a Health Savings Account (HSA). This requires a high-deductible health plan, but those plans cover preventative which is all we use through our 20s and 30s. HSAs offer a triple tax advantages: tax-free contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. The out of pocket maximum makes it straightforward to quantify our worst-case scenario, and if our out of pocket costs exceed our deductible in a plan year, consider switching to another Health Insurance plan.
+For Health Insurance, consider a Health Savings Account (HSA). This requires a high-deductible health plan, but those plans cover preventative. HSAs offer a triple tax advantages: tax-free contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. The out of pocket maximum makes it straightforward to quantify a worst-case scenario, and if your out of pocket costs exceed your deductible in a plan year, consider switching to another Health Insurance plan for future years. Ideally, anticipate this inflection point based on age, health status and prescriptions, and switch to another plan preemptively.
 
 ## Suggested reading
 
